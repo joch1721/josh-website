@@ -1,0 +1,168 @@
+
+body {
+  padding-bottom: 70px; 
+  background-color: #f8f9fa;
+}
+
+
+
+/* Profile Section */
+.container.mt-4 {
+    padding: 60px 15px;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.lead {
+    font-size: 1.2rem;
+    color: #495057; /* slightly muted text */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.img-fluid.rounded.shadow {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-fluid.rounded.shadow:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+
+/* Hobby Cards */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: linear-gradient(135deg, #ffffff, #e0f7fa); 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px; 
+}
+
+.card-title {
+    color: #007bff;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #495057;
+    font-size: 0.95rem;
+}
+
+/* Accordions */
+.accordion-item {
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #ffffff, #e0f7fa);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.accordion-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Accordion Headers */
+.accordion-button {
+    border-radius: 15px;
+    background-color: #ffffff; 
+    color: #007bff;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* Accordian Images */
+.accordion-body img {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    object-fit: cover;
+    max-height: 200px;
+    width: 100%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.accordion-body img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.accordion-body p {
+    color: #495057;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/* Navbar */
+.navbar.bg-body-tertiary {
+    background-color: #007bff !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #c7ced4 !important;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: #ffffff!important;
+    text-decoration: underline;
+}
+
+/* Footer */
+.navbar-dark.bg-dark {
+    background-color: #007bff !important;
+}
+
+.navbar-dark .nav-link {
+    color: #c7ced4 !important;
+    transition: 0.2s;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ffffff !important;
+}
